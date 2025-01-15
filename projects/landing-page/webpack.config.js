@@ -2,10 +2,10 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 
 module.exports = withModuleFederationPlugin({
 
-  name: 'shell',
+  name: 'landingPage',
 
   exposes: {
-    './Component': './src/app/app.component.ts',
+    './Component': './projects/landing-page/src/app/app.component.ts',
   },
 
   shared: {
